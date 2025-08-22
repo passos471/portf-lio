@@ -5,8 +5,9 @@ function toggleMode() {
   const img = document.querySelector("#profile img");
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./img/avatar2.jpg");
+    img.setAttribute("src", "../img/732277331-coutinho.png");
   } else {
-    img.setAttribute("src", "./img/avatar1.jfif");
+    img.setAttribute("src", "../img/cou.png");
   }
+
 }
